@@ -1,9 +1,0 @@
-<?php
-
-$container->loadFromExtension('framework', [
-    'annotations' => false,
-    'http_method_override' => false,
-    'webhook' => ['enabled' => true],
-    'http_client' => ['enabled' => true],
-    'serializer' => ['enabled' => true],
-]);
